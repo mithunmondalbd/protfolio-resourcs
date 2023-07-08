@@ -6,6 +6,9 @@
 body{
     font-family: Open Sans;
 }
+header{
+     background: #FFF8F3;
+}
 .header-container{
     display: flex;
     justify-content: space-between;
@@ -53,10 +56,10 @@ ul, li, a{
     justify-content: center;
     align-items: center;
     background-image: url("../images/header_bg.png");
-    /* background-repeat: no-repeat;
-    background-position: bottom right; */
+    background-repeat: no-repeat;
+    background-position: bottom right;
     padding: 30px 30px 0px 200px;
-    background: #FFF8F3;
+   
 }
 .contact-image{
     width: 500px;
@@ -70,6 +73,15 @@ ul, li, a{
     line-height: normal;
     border: 0;
     border: 1px solid #FD6E0A;
+}
+.font-icon{
+    color: #FFFFFF;
+    width: 24px;
+    height: 24px;
+    padding-right: 10px;
+}
+.get-info{
+    color: #FD6E0A;
 }
 .text-title{
     font-size: 30px;
