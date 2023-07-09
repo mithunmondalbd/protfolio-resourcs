@@ -59,11 +59,20 @@ ul, li, a{
     background-repeat: no-repeat;
     background-position: bottom right;
     padding: 30px 30px 0px 200px;
-   
+    position: relative;
+    height: 90vh;
+}
+.banner-section{
+    position: absolute;
+    left: 200px;
 }
 .contact-image{
     width: 500px;
     padding-right: 30px;
+    position: absolute;
+    right: 30px;
+    bottom: 0;
+    
 }
 .header-contact{
     padding: 10px 18px;
@@ -73,9 +82,10 @@ ul, li, a{
     line-height: normal;
     border: 0;
     border: 1px solid #FD6E0A;
+    
 }
 .font-icon{
-    color: #FFFFFF;
+    color: hsl(0, 0%, 100%);
     width: 24px;
     height: 24px;
     padding-right: 10px;
